@@ -1,0 +1,592 @@
+{
+  "genesis_time": "2024-02-25T18:16:54.658478568Z",
+  "chain_id": "fmc-1",
+  "initial_height": "1",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age_num_blocks": "100000",
+      "max_age_duration": "172800000000000",
+      "max_bytes": "1048576"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    },
+    "version": {}
+  },
+  "app_hash": "",
+  "app_state": {
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "fmc1hts0msyxvkgcwqynf58zj49m2sdk0su73gjycv",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "fmc1wrjesnwuav0gxkh7w0x3rgl87ffwuwhkdeprm2",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "fmc14w29394fhvzypp9ux2gaqpcds2utg9gvn7l2vr",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "fmc1chawj8elcewnkptvs586h3ls0u8e3yxlpwyn3h",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "fmc15h6lnx5ew5yskallph909mt3ts9umt6gpvwx2q",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "fmc1qyr2p9gtnwp439gp78sc4x2ntfumt0trhan8e6",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "fmc1a9f9ggtrqvhk3hjdvfm6a3axqytxml7wug6ajs",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "fmc1wjg9wknudp8f2gtpmlw0kz3t9w6223z5gq4emz",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "fmc1d57cds7vlgl0g2wz6ztq7cs90nzfsn55lft4mh",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        }
+      ]
+    },
+    "authz": {
+      "authorization": []
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true,
+        "dead_address": "fmc1ntwga6nvazn4fsfslmyc0yr4r74rps3l6hhs0z"
+      },
+      "balances": [
+        {
+          "address": "fmc1qyr2p9gtnwp439gp78sc4x2ntfumt0trhan8e6",
+          "coins": [
+            {
+              "denom": "ufmc",
+              "amount": "2000000000000"
+            }
+          ]
+        },
+        {
+          "address": "fmc1d57cds7vlgl0g2wz6ztq7cs90nzfsn55lft4mh",
+          "coins": [
+            {
+              "denom": "ufmc",
+              "amount": "1000000000000"
+            }
+          ]
+        },
+        {
+          "address": "fmc1wrjesnwuav0gxkh7w0x3rgl87ffwuwhkdeprm2",
+          "coins": [
+            {
+              "denom": "ufmc",
+              "amount": "6000000000000"
+            }
+          ]
+        },
+        {
+          "address": "fmc1wjg9wknudp8f2gtpmlw0kz3t9w6223z5gq4emz",
+          "coins": [
+            {
+              "denom": "ufmc",
+              "amount": "1000000000000"
+            }
+          ]
+        },
+        {
+          "address": "fmc15h6lnx5ew5yskallph909mt3ts9umt6gpvwx2q",
+          "coins": [
+            {
+              "denom": "ufmc",
+              "amount": "4000000000000"
+            }
+          ]
+        },
+        {
+          "address": "fmc14w29394fhvzypp9ux2gaqpcds2utg9gvn7l2vr",
+          "coins": [
+            {
+              "denom": "ufmc",
+              "amount": "1000000000000"
+            }
+          ]
+        },
+        {
+          "address": "fmc1hts0msyxvkgcwqynf58zj49m2sdk0su73gjycv",
+          "coins": [
+            {
+              "denom": "ufmc",
+              "amount": "6000000000000"
+            }
+          ]
+        },
+        {
+          "address": "fmc1chawj8elcewnkptvs586h3ls0u8e3yxlpwyn3h",
+          "coins": [
+            {
+              "denom": "ufmc",
+              "amount": "2000000000000"
+            }
+          ]
+        },
+        {
+          "address": "fmc1a9f9ggtrqvhk3hjdvfm6a3axqytxml7wug6ajs",
+          "coins": [
+            {
+              "denom": "ufmc",
+              "amount": "1000000000000"
+            }
+          ]
+        }
+      ],
+      "supply": [
+        {
+          "denom": "ufmc",
+          "amount": "24000000000000"
+        }
+      ],
+      "denom_metadata": []
+    },
+    "capability": {
+      "index": "1",
+      "owners": []
+    },
+    "crisis": {
+      "constant_fee": {
+        "denom": "ufmc",
+        "amount": "1000"
+      }
+    },
+    "distribution": {
+      "params": {
+        "community_tax": "0.000000000000000000",
+        "base_proposer_reward": "0.000000000000000000",
+        "bonus_proposer_reward": "0.000000000000000000",
+        "withdraw_addr_enabled": true
+      },
+      "fee_pool": {
+        "community_pool": []
+      },
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "feegrant": {
+      "allowances": []
+    },
+    "fmcprofile": {
+      "params": {
+        "min_deposit": "300000000000",
+        "max_delegators": 1000
+      },
+      "profiles_list": [
+        {
+          "address": "fmc14w29394fhvzypp9ux2gaqpcds2utg9gvn7l2vr",
+          "role": "granter"
+        },
+        {
+          "address": "fmc1hts0msyxvkgcwqynf58zj49m2sdk0su73gjycv",
+          "role": "granter"
+        },
+        {
+          "address": "fmc1wrjesnwuav0gxkh7w0x3rgl87ffwuwhkdeprm2",
+          "role": "granter"
+        },
+        {
+          "address": "fmc15h6lnx5ew5yskallph909mt3ts9umt6gpvwx2q",
+          "role": "faucet"
+        },
+        {
+          "address": "fmc1qyr2p9gtnwp439gp78sc4x2ntfumt0trhan8e6",
+          "role": "faucet"
+        },
+        {
+          "address": "fmc1a9f9ggtrqvhk3hjdvfm6a3axqytxml7wug6ajs",
+          "role": "faucet"
+        },
+        {
+          "address": "fmc1wjg9wknudp8f2gtpmlw0kz3t9w6223z5gq4emz",
+          "role": "faucet"
+        },
+        {
+          "address": "fmc1d57cds7vlgl0g2wz6ztq7cs90nzfsn55lft4mh",
+          "role": "faucet"
+        },
+        {
+          "address": "fmc1w4hpzq7gueeu3a5tyhmvlfhhleevn02fuu4dkr",
+          "role": "faucet"
+        }
+      ]
+    },
+    "genutil": {
+      "gen_txs": [
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "fmc",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "fmc1wrjesnwuav0gxkh7w0x3rgl87ffwuwhkdeprm2",
+                "validator_address": "fmcvaloper1wrjesnwuav0gxkh7w0x3rgl87ffwuwhka4nr3z",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "/v5xbRC2gABAEIFbyZoAvnP+6ELxEIep1O552YTo06E="
+                },
+                "value": {
+                  "denom": "ufmc",
+                  "amount": "5999990000000"
+                }
+              }
+            ],
+            "memo": "0a6afc02e13645d4b85708c26a36479c045c368e@172.17.0.2:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AjYJ0PAWD8m5m/Ar2AO4+/CdKm0nirHtbmhG2EmLCHS5"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "ufmc",
+                  "amount": "1000000"
+                }
+              ],
+              "gas_limit": "1000000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "t/ZEJol9dbz/qgnadpscndUUnntqOmKaCbQ2Uv4hgFwr2YWRtuOewJy9X3qUF6eprGL6LBayFVY4So6PBYCCzA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "fmc",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "fmc1hts0msyxvkgcwqynf58zj49m2sdk0su73gjycv",
+                "validator_address": "fmcvaloper1hts0msyxvkgcwqynf58zj49m2sdk0su7pyqyjy",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "7Y5S3k82KG5ZhQw4X0H5SPRBuv5WpENJ9bl0lWjSDFw="
+                },
+                "value": {
+                  "denom": "ufmc",
+                  "amount": "5999990000000"
+                }
+              }
+            ],
+            "memo": "ca32b25e212bce7f262a2444aad2d747ace5e4c9@172.17.0.2:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AgNz2K9/JLUIOeGB2OT73nXW6DBXDTzFsIgjicx77Fci"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "ufmc",
+                  "amount": "1000000"
+                }
+              ],
+              "gas_limit": "1000000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "AnVo4qOCDH6PSCsbCkSEIQ5Wi7bZlWmnB0Hi7YEdaQRuyerbh8H7Jg7P0mjKAP7S+KkkE/0bW3jmAC5hmnWeig=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "fmc",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "fmc14w29394fhvzypp9ux2gaqpcds2utg9gvn7l2vr",
+                "validator_address": "fmcvaloper14w29394fhvzypp9ux2gaqpcds2utg9gvrjd2xt",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "dQciJQ9b3TPu2i+kFrAhSBEI9MI/gonBS1xJfRPUkfc="
+                },
+                "value": {
+                  "denom": "ufmc",
+                  "amount": "999990000000"
+                }
+              }
+            ],
+            "memo": "fa1c02d7cc51d74d73a014b76cc54b6a00a740f0@172.17.0.2:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AhBDou2mo1A19ypiPojRLEgSBquEa8NFM+N2P5AZ+8Lg"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "ufmc",
+                  "amount": "1000000"
+                }
+              ],
+              "gas_limit": "1000000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "yK2Dyh26fHAaq5bk7WbmEMm3Wq1uEY0cjosLbhRvDzJp1gx5ewc5gbnejG70JNS8UPNy4u49tF5aadKOSdJoXA=="
+          ]
+        }
+      ]
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": [],
+      "votes": [],
+      "proposals": [],
+      "deposit_params": {
+        "min_deposit": [
+          {
+            "denom": "ufmc",
+            "amount": "10000000"
+          }
+        ],
+        "max_deposit_period": "172800s"
+      },
+      "voting_params": {
+        "voting_period": "172800s"
+      },
+      "tally_params": {
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.334000000000000000"
+      }
+    },
+    "mint": {
+      "minter": {
+        "inflation": "0.130000000000000000",
+        "annual_provisions": "0.000000000000000000",
+        "delegators_inflation_rate": "0",
+        "ref_inflation_rate": "0"
+      },
+      "params": {
+        "mint_denom": "ufmc",
+        "inflation_rate_change": "0.000000000000000000",
+        "inflation_max": "0.000000000000000000",
+        "inflation_min": "0.000000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "6311520",
+        "inflation_team": "0.050000000000000000",
+        "inflation_validator": "0.040000000000000000",
+        "inflation_rates": [
+          {
+            "supply": "24000000000000",
+            "delegators_rate": "0.220000000000000000",
+            "ref_rate": "0.190000000000000000"
+          },
+          {
+            "supply": "150000000000000",
+            "delegators_rate": "0.180000000000000000",
+            "ref_rate": "0.160000000000000000"
+          },
+          {
+            "supply": "750000000000000",
+            "delegators_rate": "0.140000000000000000",
+            "ref_rate": "0.130000000000000000"
+          },
+          {
+            "supply": "1500000000000000",
+            "delegators_rate": "0.100000000000000000",
+            "ref_rate": "0.090000000000000000"
+          },
+          {
+            "supply": "2500000000000000",
+            "delegators_rate": "0.060000000000000000",
+            "ref_rate": "0.060000000000000000"
+          },
+          {
+            "supply": "3500000000000000",
+            "delegators_rate": "0.020000000000000000",
+            "ref_rate": "0.020000000000000000"
+          },
+          {
+            "supply": "4000000000000000",
+            "delegators_rate": "0.000000000000000000",
+            "ref_rate": "0.000000000000000000"
+          }
+        ],
+        "ref_address": "fmc1w4hpzq7gueeu3a5tyhmvlfhhleevn02fuu4dkr",
+        "team_address": "fmc1chawj8elcewnkptvs586h3ls0u8e3yxlpwyn3h"
+      }
+    },
+    "params": null,
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "100",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600s",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": [],
+      "missed_blocks": []
+    },
+    "staking": {
+      "params": {
+        "unbonding_time": "60s",
+        "max_validators": 100,
+        "max_entries": 7,
+        "historical_entries": 10000,
+        "bond_denom": "ufmc",
+        "unbounding_fee": "0.100000000000000000"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": [],
+      "validators": [],
+      "delegations": [],
+      "unbonding_delegations": [],
+      "redelegations": [],
+      "exported": false
+    },
+    "upgrade": {},
+    "vesting": {}
+  }
+}
